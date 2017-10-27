@@ -13,7 +13,7 @@
       <section class="header_left">
         <div>
           <!-- website name with logo -->
-          <img class="header_logo" src="img/logo.png">
+          <img id="header_logo" src="img/logo.png">
 
           <h1>Delicious</h1>
           <p>THE BEST FOOD ON THE WEB</p>
@@ -52,7 +52,7 @@
         </div>
       </section>
           <!-- dotted line between header and next div -->
-          <img class="header_break_line" src="img/section-break.png">
+          <img id="header_break_line" src="img/section-break.png">
 
     </header>
 
@@ -62,11 +62,11 @@
         <h2 id="recipe_name">Chocolate Pizza </h2>
         <p id="post_date"> POSTED ON 15 DEC 2013/DESSERTS</p>
 
-        <img class="print-btn" src="img/print-icon.png">
+        <img id="print-btn" src="img/print-icon.png">
       </div>
       <!-- big img of the pizza itself -->
       <div>
-        <img class="choco_pizza" src="img/choco-pizza.png">
+        <img id="choco_pizza" src="img/choco-pizza.png">
       </div>
       <!-- paragraphs listing out recipe process -->
       <div id="recipe_steps">
@@ -75,10 +75,23 @@
         <p>Para 3</p>
       </div>
 
-      <div>
-        <!-- ingredient list goes here-->
-        <img class="list_background" src="img/list-bg.png">
-        <p>ingredient list</p>
+      <div id="shopping_list">
+        <ul>
+          <li><input type="checkbox" id="l1"/><label for="l1">1 1/2 cup milk</label></li>
+          <li><input type="checkbox" id="l2"/><label for="l2">12 cup mascarpone</label></li>
+          <li><input type="checkbox" id="l3"/><label for="l3">1/2 tsp pink salt</label></li>
+          <li><input type="checkbox" id="l4"/><label for="l4">1 lb Black Mission Figs</label></li>
+          <li><input type="checkbox" id="l5"/><label for="l5">1/2 cup brown sugar</label></li>
+          <li><input type="checkbox" id="l6"/><label for="l6">2-4 tbsp water</label></li>
+        </ul>
+        <ul>
+          <li><input type="checkbox" id="l1"/><label for="l1">1 1/2 cup heavy cream</label></li>
+          <li><input type="checkbox" id="l2"/><label for="l2">1/3 granulated sugar </label></li>
+          <li><input type="checkbox" id="l3"/><label for="l3">2 egg yolks</label></li>
+          <li><input type="checkbox" id="l4"/><label for="l4">1 lemon, juiced</label></li>
+          <li><input type="checkbox" id="l5"/><label for="l5">2 tbsp butter</label></li>
+          <li><input type="checkbox" id="l6"/><label for="l6">1 cup honey roasted pecans, roughly chopped</label></li>
+        </ul>
       </div>
 
       <div>

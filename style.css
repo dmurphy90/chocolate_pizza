@@ -1,0 +1,15 @@
+input[type="checkbox"]:checked + label {
+ text-decoration: line-through;
+}
+input[type="checkbox"] label  {
+
+}
+
+#shopping_list ul {
+display: inline-block;
+}
+
+#shopping_list {
+  background-image: url("img/list-bg.png");
+  background-repeat: no-repeat;
+}
