@@ -1,0 +1,174 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+img#header_logo {
+  float: left;
+}
+
+ul li {
+  display: inline;
+}
+
+div.header_icons {
+  clear: both;
+}
+
+li#rss img {
+  margin-left: 10px;
+}
+
+ul.share_icons {
+  float: right;
+  list-style: none;
+  display: inline;
+  margin-left: 700px;
+  margin-top: -30px;
+}
+
+.header_logo p {
+  font-size: 8px;
+  display: block;
+  margin-left: 55px;
+}
+
+h1 {
+  display: inline-block;
+  font-family: 'Yellowtail', cursive;
+  font-size: 30px;
+  margin-left: 5px;
+}
+
+img#break_line {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+h2#recipe_name {
+  font-family: impact;
+  font-size: 40px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+p#post_date {
+  font-size: 13px;
+  color: #777;
+}
+
+span {
+  float: right;
+}
+
+img#print-btn {
+  display: inline;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  margin-right: 4px;
+}
+
+p#print {
+  float: right;
+  font-size: 10px;
+  font-family: arial;
+  display: inline;
+  color: #777;
+  margin-top: -17px;
+  margin-bottom: 9px;
+}
+
+img#choco_pizza {
+  width: 960px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+div.recipe_steps p {
+  padding: 10px 0px;
+  text-indent: 2em;
+  color: #666;
+  line-height: 1.5;
+}
+
+div.recipe_steps p:last-child {
+  margin-bottom: 20px;
+}
+
+input[type="checkbox"]:checked + label {
+ text-decoration: line-through;
+}
+input[type="checkbox"] label  {
+
+}
+
+div#shopping_list {
+  height: 300px;
+  margin-bottom: 15px;
+}
+
+#shopping_list ul {
+  margin-right: 200px;
+  margin-left: 60px;
+  margin-top: 37px;
+  line-height: 2;
+  display: inline-grid;
+}
+
+label {
+  font-family: 'Patrick Hand', regular;
+  font-size: 18px;
+}
+
+#shopping_list {
+  background-image: url("img/list-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+img.vanessa {
+  margin-top: 10px;
+  float: left;
+}
+
+h3#author_name {
+  font-weight: bold;
+  margin-top: 14px;
+  margin-left: 90px;
+  font-size: 18px;
+}
+
+p#about_author {
+  margin-top: 10px;
+  margin-left: 90px;
+  line-height: 1.3;
+  font-size: 18px;
+  color: #555;
+}
+
+button#share_recipe {
+  width: 150px;
+  height: 40px;
+  font-size: 14px;
+  float: right;
+  margin-bottom: 70px;
+  margin-top: -60px;
+  color: #fff;
+  background-color: #bb7058;
+  border: none;
+}
+
+img.footer_break_line_one {
+  width: 100%;
+}
+
+img.footer_logo {
+  margin-left: 463px;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+footer p {
+  text-align: center;
+}
